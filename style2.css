@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body h1,h2,h5,p,li,a,input{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section1{
+    background-color:#3B5998;
+    height: 42px;
+    padding: 20px 50px;
+
+}
+.section1.logo{
+    width: 50%;
+    float: left;
+}
+.logo h1{
+    color: white;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 400px;
+    margin-top: 5px;
+}
+.loginButton{
+    width: 30%;
+    float: right;
+    margin-top: -30px;
+}
+.loginButton a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(21, 85, 138);
+    padding: 3px 5px;
+    background-color:#3e61ad;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.loginButton a:hover{
+    background-color: #254a9b;
+
+}
+
+/*second part*/
+.section2{
+    background-color: #EBEDF0;
+    width: 100%;
+    height: 420px;
+    padding: 20px 0px;
+}
+.content{
+    background-color: #FFFFFF;
+    /* border: 1px solid grey; */
+    width: 565px;
+    height:170px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid rgb(209, 203, 203);
+    
+}
+
+.content h2{
+    width: 90%;
+    height: 37px;
+    border-bottom: 1px solid rgb(204, 197, 197);
+    font-size: 18px;
+    margin-top: 22px;
+    margin-left: 25px;
+    font-weight: 600;
+    /* color: black; */
+    /* font-weight: 550; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content p,.box{
+    width: 70%;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: 100px;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box{
+    width: 60%;
+    /* padding-top: -8px; */
+    color: rgb(197, 195, 195);
+    height: 8px;
+    padding-bottom: 5px;
+}
+
+input{
+    padding: 3px 3px;
+    font-size: 13px;
+    font-family: arial;
+    border: 1px solid rgb(226, 221, 221);
+    /* border-radius: 7px; */
+}
+.lastdiv{
+    width: 154px;
+    /* width: 550px; */
+    /* border-top: none; */
+    margin-top: 69px;
+    background-color: #F2F2F2;
+    /* border-top:7px; */
+    border: 1px solid rgb(209, 203, 203);
+    /* box-sizing: border-box; */
+    padding-left: 410px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* border-top: 4px; */
+    margin-top: 33px;
+    /* padding: 5px 0px; */
+}
+.search{
+    padding: 4px 7px;
+    width: 70px;
+    height: 25px;
+    background: #365899;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    /* border: 1px solid rgb(78, 76, 76);
+    border-radius: 9px; */
+}
+.search:hover{
+    background: #2b477c;
+    cursor: pointer;
+}
+.cancle{
+    padding: 4px 7px;
+    width: 70px;
+    height: 25px;
+    background: #EBEDF0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.cancle:hover{
+    background: #e8eef7;
+    cursor: pointer;
+}
+
+/*footer */
+.firstMenu{
+    /* margin-top: 300px; */
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: 1px solid rgb(177, 172, 172);
+    /* display:inline-block; */
+}
+.firstMenu ul{
+    margin-top: 80px;
+
+}
+
+.firstMenu ul li{
+list-style: none;
+display:inline-block;
+padding-top: 60px;
+padding-bottom: 7px;
+padding-left: 6px;
+/* word-spacing: 4px; */
+}
+.firstMenu ul li a{
+    text-decoration: none;
+    /* color: #385898; */
+    font-size: 14px;
+    /* padding: 10px 8px; */
+
+}
+.non_active:hover{
+    border-bottom: 1px solid#385898;
+ }
+.active{
+    color: rgb(150, 150, 150);
+}
+.non_active{
+    color: #385898;
+
+}
+
+/*secondMenu*/
+
+.secondMenu{
+    padding-top: 6px;
+    margin: 0 auto;
+    width: 50%;
+    /* border-bottom: 1px solid rgb(177, 172, 172); */
+    /* display:inline-block; */
+}
+.secondMenu ul{
+    
+
+}
+
+.secondMenu ul li{
+list-style: none;
+display:inline-block;
+padding: 5px 6px;
+/* word-spacing: 4px; */
+}
+.secondMenu ul li a{
+    text-decoration: none;
+    color: #385898;
+    font-size: 13.5px;
+    /* padding: 10px 8px; */
+
+}
+.secondMenu ul li a:hover{
+    border-bottom: 1px solid#385898;
+ }
+.copyright{
+    width: 50%;
+    margin: 0 auto;
+    color: grey;
+    font-size: 12px;
+    margin-top: 12px;
+    padding-left: 14px;
+    /* margin: 10px 0px; */
+
+}
